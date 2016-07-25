@@ -8,3 +8,10 @@ python:
 build:
   ci:
     - python --version
+    
+integrations:
+ notifications:
+   - integrationName: irc
+     type: irc
+     recipients:
+       - "chat.freenode.net#boroboro"
